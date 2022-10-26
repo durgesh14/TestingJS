@@ -8,3 +8,8 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 `;
+var a = 4;
+console.log(a);
+function student(name) {
+  this.name = name;
+}
